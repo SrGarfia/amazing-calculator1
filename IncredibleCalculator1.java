@@ -18,7 +18,10 @@ public class IncredibleCalculator {
         // varios métodos para las operaciones aritméticas
 
         switch (opcion) {
-            case 1: //Sumar. Debes leer dos numeros enteros de entrada e imprimir su suma
+            case 1:
+                 public static int suma(int a, int b) {
+        return a + b;
+    }
                     break;
             case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
                     break;
@@ -33,9 +36,7 @@ public class IncredibleCalculator {
 
     }
 
-    public static int suma(int a, int b) {
-        return a + b;
-    }
+   
 
     public static int resta(int a, int b) {
         return a - b;
