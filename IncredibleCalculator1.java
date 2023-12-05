@@ -28,7 +28,12 @@ public class IncredibleCalculator {
         return a - b;
     }
                     break;
-            case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
+            case 3: 
+             public static int multiplicacion(int a, int b) {
+        return a * b;
+    }
+
+            
                     break;
             case 4: // División entera. Debes leer dos números enteros de entrada e imprimir su división entera.
                     break;
@@ -41,14 +46,9 @@ public class IncredibleCalculator {
 
    
 
-    public static int resta(int a, int b) {
-        return a - b;
-    }
+   
 
-    public static int multiplicacion(int a, int b) {
-        return a * b;
-    }
-
+   
     public static int divisionEntera(int a, int b) {
         return a / b;
     }
