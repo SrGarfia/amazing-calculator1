@@ -35,7 +35,10 @@ public class IncredibleCalculator {
 
             
                     break;
-            case 4: // División entera. Debes leer dos números enteros de entrada e imprimir su división entera.
+            case 4: 
+            public static int divisionEntera(int a, int b) {
+        return a / b;
+    }
                     break;
             case 5: // División decimal. Debes leer dos números enteros de entrada e imprimir su división con decimales.
                     break;
@@ -44,14 +47,7 @@ public class IncredibleCalculator {
 
     }
 
-   
 
-   
-
-   
-    public static int divisionEntera(int a, int b) {
-        return a / b;
-    }
 
     public static double divisionConDecimales(int a, int b) {
         return a / (b * 1.0);
