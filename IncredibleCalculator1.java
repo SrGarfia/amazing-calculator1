@@ -23,7 +23,10 @@ public class IncredibleCalculator {
         return a + b;
     }
                     break;
-            case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
+            case 2: 
+            public static int resta(int a, int b) {
+        return a - b;
+    }
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
                     break;
