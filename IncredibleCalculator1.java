@@ -40,7 +40,10 @@ public class IncredibleCalculator {
         return a / b;
     }
                     break;
-            case 5: // División decimal. Debes leer dos números enteros de entrada e imprimir su división con decimales.
+            case 5: 
+             public static double divisionConDecimales(int a, int b) {
+        return a / (b * 1.0);
+    }
                     break;
 
         }
